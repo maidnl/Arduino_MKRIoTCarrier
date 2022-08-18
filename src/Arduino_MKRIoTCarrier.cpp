@@ -31,7 +31,7 @@ int MKRIoTCarrier::_revision = 0;
 
 int MKRIoTCarrier::begin() {
 
-  pinMode(AREF_PIN,INPUT_PULLDOWN);
+  pinMode(AREF_PIN,INPUT_PULLUP);
   MKRIoTCarrier::_revision = digitalRead(AREF_PIN);
 
   //Display
@@ -46,7 +46,7 @@ int MKRIoTCarrier::begin() {
     Buttons.updateConfig(200);
   }
 
-  Buttons.begin(_revision);    //init buttons
+  Buttons.begin(_revision == BOARD_REVISION_2);    //init buttons
 
   //init LEDs
   leds.begin();

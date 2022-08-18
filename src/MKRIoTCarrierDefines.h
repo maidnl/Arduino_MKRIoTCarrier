@@ -28,7 +28,7 @@
 /* Type for getRevision functions */
 using getRev_t = int (*)();
 
-#define BOARD_REVISION_2    1
+#define BOARD_REVISION_2    0
 #define BME_SLAVE_ADDRESS   0x76
 
 #define LSM6DSOX_ADDRESS           0x6A
