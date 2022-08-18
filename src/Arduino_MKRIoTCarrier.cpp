@@ -46,7 +46,7 @@ int MKRIoTCarrier::begin() {
     Buttons.updateConfig(200);
   }
 
-  Buttons.begin();    //init buttons
+  Buttons.begin(_revision);    //init buttons
 
   //init LEDs
   leds.begin();

@@ -38,12 +38,12 @@
 
 #define BUZZER      7
 
-#define GROVE_AN1   A5
+#define GROVE_AN1   A0
 #define GROVE_AN2   A6
 
 #define SD_CS       0
 
-#define Y0          A0
+#define Y0          A5
 #define Y1          A1
 #define Y2          A2
 #define Y3          A3
