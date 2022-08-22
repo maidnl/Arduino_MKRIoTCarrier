@@ -9,9 +9,6 @@
 #include <Arduino_LPS22HB.h>    //Pressure sensor
 #include "bme68xLibrary.h"
 #include <Arduino_HTS221.h>     // env sensor
-#define IMU IMU6DS3
-#include <Arduino_LSM6DS3.h>
-#undef IMU
 #include <Arduino_LSM6DSOX.h>
 
 #include <Arduino_MKRIoTCarrier_Relay.h> //Relays

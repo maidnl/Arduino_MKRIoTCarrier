@@ -59,6 +59,9 @@
 #define TFT_DC        14
 #define TFT_BACKLIGHT 3
 
+#define TFT_CS_OLD        2
+#define TFT_DC_OLD        1
+
 //Touch pads values for using the case or just directly on the board
 //Define on the sketch to use it
 extern bool CARRIER_CASE;
